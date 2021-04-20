@@ -92,12 +92,12 @@ console.log(obj.movies[2].weaknes[0].substring(1,5))
 // console.log(obj.movies);
 
 
-let key = "place";
+// let key = "place";
 // console.log(obj.key); //=> it will check if there is a key named "key"
 
 // square brackets notation
-obj["place"];
-obj["Full Name"];
+// obj["place"];
+// obj["Full Name"];
 
 obj.skills = ["martial arts" , "taekwondo"];
 obj.place = "New york";
