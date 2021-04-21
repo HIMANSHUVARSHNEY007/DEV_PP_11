@@ -1,0 +1,10 @@
+let fs = require('fs');
+let data=fs.readFileSync('read.txt');
+console.log(data + "");
+let wdata = 'This is some demo data that i want to write';
+fs.writeFileSync('write.txt',wdata);
+fs.appendFileSync('write.txt','\nThis is append data');
+// fs.unlinkSync('write.txt');
+// fs.mkdirSync('Other');
+// fs.mkdirSync('D:\\Other');
+console.log(fs.existsSync('read.txt'));
